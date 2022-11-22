@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9613fd0b-ea1d-4eea-b81f-ce814538a477" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/python_codes/sliding_window/stringanagrams.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/slidingwindow/StringAnagrams.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,12 +50,11 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "last_opened_file_path": "/home/rohi/Desktop/Google/LinkedList",
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.StringPermutation">
+  <component name="RunManager" selected="Application.StringAnagrams">
     <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -71,14 +71,14 @@
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="NoRepeatSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="slidingwindow.NoRepeatSubstring" />
+    <configuration name="ReplacingOnes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="slidingwindow.ReplacingOnes" />
       <module name="GrokkingTheCoddingInterviewJava" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="ReplacingOnes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="slidingwindow.ReplacingOnes" />
+    <configuration name="StringAnagrams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="slidingwindow.StringAnagrams" />
       <module name="GrokkingTheCoddingInterviewJava" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2" />
@@ -107,11 +107,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StringAnagrams" />
         <item itemvalue="Application.StringPermutation" />
         <item itemvalue="Application.ReplacingOnes" />
         <item itemvalue="Application.LongestSubarrayOf1sAfterDeletingOneElement" />
         <item itemvalue="Application.CharacterReplacement" />
-        <item itemvalue="Application.NoRepeatSubstring" />
       </list>
     </recent_temporary>
   </component>
@@ -121,6 +121,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="modify permutations in string" />
-    <option name="LAST_COMMIT_MESSAGE" value="modify permutations in string" />
+    <MESSAGE value="add solution for string anagrams #438" />
+    <option name="LAST_COMMIT_MESSAGE" value="add solution for string anagrams #438" />
   </component>
 </project>
