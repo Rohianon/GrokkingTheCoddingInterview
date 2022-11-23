@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9613fd0b-ea1d-4eea-b81f-ce814538a477" name="Changes" comment="" />
+    <list default="true" id="9613fd0b-ea1d-4eea-b81f-ce814538a477" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/python_codes/sliding_window/is_anagram_2.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,6 +27,11 @@
     <toolWindowToFront>false</toolWindowToFront>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Rohi" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitToolBoxStore">
@@ -123,6 +130,7 @@
     <MESSAGE value="modify permutations in string" />
     <MESSAGE value="add solution for string anagrams #438" />
     <MESSAGE value="add solution for easy anagrams #242" />
-    <option name="LAST_COMMIT_MESSAGE" value="add solution for easy anagrams #242" />
+    <MESSAGE value="add solution 2 for easy anagrams #242" />
+    <option name="LAST_COMMIT_MESSAGE" value="add solution 2 for easy anagrams #242" />
   </component>
 </project>
