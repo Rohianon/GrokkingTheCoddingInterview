@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9613fd0b-ea1d-4eea-b81f-ce814538a477" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/python_codes/sliding_window/is_anagram_2.py" afterDir="false" />
-    </list>
+    <list default="true" id="9613fd0b-ea1d-4eea-b81f-ce814538a477" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -131,6 +129,7 @@
     <MESSAGE value="add solution for string anagrams #438" />
     <MESSAGE value="add solution for easy anagrams #242" />
     <MESSAGE value="add solution 2 for easy anagrams #242" />
-    <option name="LAST_COMMIT_MESSAGE" value="add solution 2 for easy anagrams #242" />
+    <MESSAGE value="add solution 3 for easy anagrams #242" />
+    <option name="LAST_COMMIT_MESSAGE" value="add solution 3 for easy anagrams #242" />
   </component>
 </project>
