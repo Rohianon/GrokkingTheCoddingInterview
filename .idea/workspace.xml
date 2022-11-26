@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9613fd0b-ea1d-4eea-b81f-ce814538a477" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/python_codes/merge_sort/merge_sort_912.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/slidingwindow/MinimumWindowSubstring.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="9613fd0b-ea1d-4eea-b81f-ce814538a477" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,6 +27,7 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
+        <option value="Rohianon &lt;rohianon48@gmail.com&gt;" />
         <option value="Rohi" />
       </list>
     </option>
@@ -63,19 +60,19 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.StringAnagrams">
+  <component name="RunManager" selected="Application.MinimumWindowSubstring">
     <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
     </configuration>
-    <configuration name="CharacterReplacement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="slidingwindow.CharacterReplacement" />
+    <configuration name="LongestSubarrayOf1sAfterDeletingOneElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="slidingwindow.LongestSubarrayOf1sAfterDeletingOneElement" />
       <module name="GrokkingTheCoddingInterviewJava" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="LongestSubarrayOf1sAfterDeletingOneElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="slidingwindow.LongestSubarrayOf1sAfterDeletingOneElement" />
+    <configuration name="MinimumWindowSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="slidingwindow.MinimumWindowSubstring" />
       <module name="GrokkingTheCoddingInterviewJava" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2" />
@@ -116,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MinimumWindowSubstring" />
         <item itemvalue="Application.StringAnagrams" />
         <item itemvalue="Application.StringPermutation" />
         <item itemvalue="Application.ReplacingOnes" />
         <item itemvalue="Application.LongestSubarrayOf1sAfterDeletingOneElement" />
-        <item itemvalue="Application.CharacterReplacement" />
       </list>
     </recent_temporary>
   </component>
@@ -134,6 +131,8 @@
     <MESSAGE value="add solution for easy anagrams #242" />
     <MESSAGE value="add solution 2 for easy anagrams #242" />
     <MESSAGE value="add solution 3 for easy anagrams #242" />
-    <option name="LAST_COMMIT_MESSAGE" value="add solution 3 for easy anagrams #242" />
+    <MESSAGE value="added minimumwindowsubstring partial solution" />
+    <MESSAGE value="added leetcode 912 medium problem on mergesort" />
+    <option name="LAST_COMMIT_MESSAGE" value="added leetcode 912 medium problem on mergesort" />
   </component>
 </project>

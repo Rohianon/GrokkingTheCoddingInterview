@@ -33,10 +33,24 @@ public class MinimumWindowSubstring {
                 char leftChar = str.charAt(windowStart++);
                 if (charFrequencyMap.containsKey(leftChar)) {
                     /**
-                     * Note that we
+                     * Note that we could have redundant matching characters, therefore we'll
+                     * decrement the matched count only when a useful occurence of a matched
+                     * character is going out of the window
                      */
+                    if (charFrequencyMap.get(leftChar) == 0)
+                        matched--;
+                    charFrequencyMap.put(leftChar, charFrequencyMap.get(leftChar) + 1);
                 }
             }
         }
+        return
+                minLength > str.length() ? "" : str.substring(subStrStart, subStrStart + minLength);
+    }
+
+    public static void main(String[] args) {
+        System.out.println(MinimumWindowSubstring.findSubstring("aabdec", "abc"));
+        System.out.println(MinimumWindowSubstring.findSubstring("aabdec", "abac"));
+        System.out.println(MinimumWindowSubstring.findSubstring("abdbca", "abc"));
+        System.out.println(MinimumWindowSubstring.findSubstring("adcad", "abc"));
     }
 }
