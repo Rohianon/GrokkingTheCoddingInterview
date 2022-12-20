@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9613fd0b-ea1d-4eea-b81f-ce814538a477" name="Changes" comment="" />
+    <list default="true" id="9613fd0b-ea1d-4eea-b81f-ce814538a477" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/python_codes/TwoPointers/pair_with_target_sum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_codes/TwoPointers/pair_with_target_sum2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/slidingwindow/WordConcatenation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/twopointers/PairWithTargetSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/twopointers/PairWithTargetSum2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,16 +67,10 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.MinimumWindowSubstring">
+  <component name="RunManager" selected="Application.PairWithTargetSum">
     <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-    </configuration>
-    <configuration name="LongestSubarrayOf1sAfterDeletingOneElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="slidingwindow.LongestSubarrayOf1sAfterDeletingOneElement" />
-      <module name="GrokkingTheCoddingInterviewJava" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2" />
     </configuration>
     <configuration name="MinimumWindowSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="slidingwindow.MinimumWindowSubstring" />
@@ -77,8 +78,14 @@
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="ReplacingOnes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="slidingwindow.ReplacingOnes" />
+    <configuration name="PairWithTargetSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="twopointers.PairWithTargetSum" />
+      <module name="GrokkingTheCoddingInterviewJava" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="PairWithTargetSum2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="twopointers.PairWithTargetSum2" />
       <module name="GrokkingTheCoddingInterviewJava" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2" />
@@ -89,8 +96,8 @@
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="StringPermutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="slidingwindow.StringPermutation" />
+    <configuration name="WordConcatenation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="slidingwindow.WordConcatenation" />
       <module name="GrokkingTheCoddingInterviewJava" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2" />
@@ -113,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PairWithTargetSum" />
+        <item itemvalue="Application.PairWithTargetSum2" />
+        <item itemvalue="Application.WordConcatenation" />
         <item itemvalue="Application.MinimumWindowSubstring" />
         <item itemvalue="Application.StringAnagrams" />
-        <item itemvalue="Application.StringPermutation" />
-        <item itemvalue="Application.ReplacingOnes" />
-        <item itemvalue="Application.LongestSubarrayOf1sAfterDeletingOneElement" />
       </list>
     </recent_temporary>
   </component>
@@ -133,6 +140,7 @@
     <MESSAGE value="add solution 3 for easy anagrams #242" />
     <MESSAGE value="added minimumwindowsubstring partial solution" />
     <MESSAGE value="added leetcode 912 medium problem on mergesort" />
-    <option name="LAST_COMMIT_MESSAGE" value="added leetcode 912 medium problem on mergesort" />
+    <MESSAGE value="push solution to MinimumWindowSubstring" />
+    <option name="LAST_COMMIT_MESSAGE" value="push solution to MinimumWindowSubstring" />
   </component>
 </project>
