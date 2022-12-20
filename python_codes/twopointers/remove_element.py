@@ -15,3 +15,8 @@ def main():
 
 
 main()
+
+# Space complexity: O(1)
+# Time complexity: O(n)
+
+

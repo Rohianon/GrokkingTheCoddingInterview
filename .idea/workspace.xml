@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9613fd0b-ea1d-4eea-b81f-ce814538a477" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/python_codes/twopointers/remove_element.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/twopointers/RemoveElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_codes/twopointers/make_squares.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/twopointers/SortedArraySquares.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_codes/twopointers/remove_element.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_codes/twopointers/remove_element.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +65,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.RemoveElement">
+  <component name="RunManager" selected="Application.SortedArraySquares">
     <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -93,8 +94,8 @@
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="WordConcatenation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="slidingwindow.WordConcatenation" />
+    <configuration name="SortedArraySquares" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="twopointers.SortedArraySquares" />
       <module name="GrokkingTheCoddingInterviewJava" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2" />
@@ -117,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SortedArraySquares" />
         <item itemvalue="Application.RemoveElement" />
         <item itemvalue="Application.RemoveDuplicates" />
         <item itemvalue="Application.PairWithTargetSum" />
         <item itemvalue="Application.PairWithTargetSum2" />
-        <item itemvalue="Application.WordConcatenation" />
       </list>
     </recent_temporary>
   </component>
@@ -140,6 +141,7 @@
     <MESSAGE value="push solution to MinimumWindowSubstring" />
     <MESSAGE value="push solutions to PairWithTargetSum" />
     <MESSAGE value="push solutions to RemoveDuplicates" />
-    <option name="LAST_COMMIT_MESSAGE" value="push solutions to RemoveDuplicates" />
+    <MESSAGE value="push solutions to RemoveElement" />
+    <option name="LAST_COMMIT_MESSAGE" value="push solutions to RemoveElement" />
   </component>
 </project>
