@@ -16,6 +16,20 @@ def remove_dups(ll):
     ll.tail = previous
     return ll
 
+def remove_duplicates(head):
+    if head is None:
+        return head
+    items = set()
+    items.add(head.val)
+    cur = head
+    while cur and cur.next:
+        if cur.next.val in items:
+            cur.next = cur.next.next
+        else:
+            items.add(cur.next.val)
+            cur = cur.next
+    return head
+
 def remove_dups_followup(ll):
     runner = current = ll.head
     while current:
@@ -41,7 +55,7 @@ test_cases = (
 )
 
 
-def test_remove_dupes():
+def test_remove_dups():
     for f in testable_functions:
         start = time.perf_counter()
         for _ in range(100):
@@ -72,3 +86,4 @@ def example():
 
 if __name__ == "__main__":
     example()
+    
