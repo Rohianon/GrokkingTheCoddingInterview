@@ -36,32 +36,36 @@ class LinkedList:
 
     def values(self):
         return [x.value for x in self]
-    
+
     def add(self, value):
+        """Append an item to a linked list"""
         if self.head is None:
             self.tail = self.head = LinkedListNode(value)
         else:
             self.tail.next = LinkedListNode(value)
             self.tail = self.tail.next
         return self.tail
-    
+
     def add_to_beginning(self, value):
+        """Add a value at the begining of the linked list"""
         if self.head is None:
             self.tail = self.head = LinkedListNode(value)
         else:
             self.head = LinkedListNode(value, self.head)
         return self.head
-    
+
     def add_multiple(self, values):
+        """Add multiple values to a linked list"""
         for v in values:
             self.add(v)
-    
+
     @classmethod
     def generate(cls, k, min_value, max_value):
         return cls(random.choices(range(min_value, max_value), k=k))
 
 
 class DoublyLinkedList(LinkedList):
+    """Doubly Linked List"""
     def add(self, value):
         if self.head is None:
             self.tail = self.head = LinkedListNode(value)
