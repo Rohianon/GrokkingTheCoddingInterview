@@ -4,16 +4,16 @@ A node in this tree can be a leaf node or an internal node.
 An internal node has two children, a left child and a right child. It also 
 has a length of all the children under it
 A leaf nodes have a value and a length
-                                #      InternalNode, 26
-                                #      /              \   
-                                #     /                \                         
-                                #    /                  \
-                                # Leaf(5, ABCDE)      InternalNode, 21
-                                #                       /           \
-                                #                      /             \
-                                #                     /               \
-                                #                    /                 \
-                                #         Leaf(10, FGHIJKLMNO)     Leaf(11, PQRSTUVWXYZ)  
+                                      InternalNode, 26
+                                      /              \   
+                                     /                \                         
+                                    /                  \
+                                 Leaf(5, ABCDE)      InternalNode, 21
+                                                       /           \
+                                                      /             \
+                                                     /               \
+                                                    /                 \
+                                         Leaf(10, FGHIJKLMNO)     Leaf(11, PQRSTUVWXYZ)  
 """
 # Data Structure to represent the CordTree
 
@@ -53,7 +53,7 @@ def find_cord_at_index(tree, index):
             queue.append(node.left)
             queue.append(node.right)
             continue
-        
+
         if (current_index + node.length) <= index:
             current_index += node.length
             continue
