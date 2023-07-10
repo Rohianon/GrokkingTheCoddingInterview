@@ -1,7 +1,7 @@
 from typing import List
 
 
-def sortArray(nums: List[int]) -> List[int]:
+def sort_array(nums: List[int]) -> List[int]:
 
     n = len(nums)
 
@@ -15,8 +15,8 @@ def sortArray(nums: List[int]) -> List[int]:
     s2 = nums[mid:n]
 
     # conquer using recursion
-    sortArray(s1)
-    sortArray(s2)
+    sort_array(s1)
+    sort_array(s2)
 
     # result
     merge(s1, s2, nums)
@@ -38,9 +38,9 @@ if __name__ == "__main__":
     a = [5, 2, 3, 1]
     b = [5, 1, 1, 2, 0, 0]
     c = [0]
-    sortArray(a)
-    sortArray(b)
-    sortArray(c)
+    sort_array(a)
+    sort_array(b)
+    sort_array(c)
     print(a)
     print(b)
     print(c)

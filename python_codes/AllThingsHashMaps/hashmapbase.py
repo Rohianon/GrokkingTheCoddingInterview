@@ -34,7 +34,7 @@ class HashMapBase(MapBase):
         if self._n > len(self._table) // 2: # keep load factor <= 0.5
             self._resize(2 * len(self._table) -1)
 
-    def __deleteitem__(self, k):
+    def __delitem__(self, k):
         j = self._hash_function(k)
         self._bucket_delitem(j, k) # may raise KeyError
         self._n -= 1
@@ -45,12 +45,3 @@ class HashMapBase(MapBase):
         self._n = 0     # n recomputed during subsequent adds
         for (k, v) in old:
             self[k] = v    # reinsert old key-value pair
-
-    def _bucket_getitem(self, k, v):
-        pass
-
-    def _bucket_setitem(self, j, k, v):
-        pass
-
-    def _bucket_delitem(self, j, k):
-        pass

@@ -13,7 +13,7 @@ Best Case: a match found near the beginning of the list.
 Worst Case: Entire list is exampined hence method runs in O(n) time on a map with n items.
  """
 
-import MapBase from mapbase
+from mapbase import MapBase
 
 class UnsortedTableMap(MapBase):
     """Map implementation using an unorder list.""" 
@@ -24,7 +24,7 @@ class UnsortedTableMap(MapBase):
     def __getitem__(self, k):
         """Return value associate with key k (raise KeyError if not found)"""
         for item in self._table:
-            if k == item._value:
+            if k == item._key:
                 return item._value
         raise KeyError('Key Error: ' + repr(k))
     
